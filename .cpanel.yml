@@ -1,5 +1,5 @@
 ---
 deployment:
   task:
-    - export DEPLOYPATH=/home/fundsjem/public_html
+    - export DEPLOYPATH=/home/fundsjem/public_html/
     - bin/cp -R /home/fundsjem/repositories/fmj_web  $DEPLOYPATH
